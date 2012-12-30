@@ -1,0 +1,24 @@
+[submodule "kitchen/cookbooks/apache2"]
+	path = kitchen/cookbooks/apache2
+	url = git://github.com/opscode-cookbooks/apache2.git
+[submodule "kitchen/cookbooks/apt"]
+	path = kitchen/cookbooks/apt
+	url = git://github.com/opscode-cookbooks/apt.git
+[submodule "kitchen/cookbooks/ant"]
+	path = kitchen/cookbooks/ant
+	url = git://github.com/opscode-cookbooks/ant.git
+[submodule "kitchen/cookbooks/java"]
+	path = kitchen/cookbooks/java
+	url = git://github.com/opscode-cookbooks/java.git
+[submodule "kitchen/cookbooks/php"]
+	path = kitchen/cookbooks/php
+	url = git://github.com/opscode-cookbooks/php.git
+[submodule "kitchen/cookbooks/mysql"]
+	path = kitchen/cookbooks/mysql
+	url = git://github.com/opscode-cookbooks/mysql.git
+[submodule "kitchen/cookbooks/openssl"]
+	path = kitchen/cookbooks/openssl
+	url = git://github.com/opscode-cookbooks/openssl.git
+[submodule "kitchen/cookbooks/build-essential"]
+	path = kitchen/cookbooks/build-essential
+	url = git://github.com/opscode-cookbooks/build-essential.git
