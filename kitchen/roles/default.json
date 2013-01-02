@@ -24,6 +24,9 @@
       "server_debian_password": "root",
       "server_repl_password": "root"
     },
+    "java": {
+      "java_home": "/usr/lib/jvm/java-1.6.0-openjdk-amd64"
+    },
     "hostname": "project.local",
     "set_env": "dev"
   }

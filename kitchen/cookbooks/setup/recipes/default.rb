@@ -62,13 +62,13 @@ execute "code-sniffer" do
 end
 
 execute "phpcpd" do
-  command "sudo pear install pear install pear.phpunit.de/phpcpd"
-  not_if "phploc -v | phploc"
+  command "sudo pear install pear.phpunit.de/phpcpd"
+  not_if "phpcpd -v | grep phpcpd"
 end
 
 execute "phploc" do
   command "sudo pear install pear.phpunit.de/phploc"
-  not_if "phploc -v | phploc"
+  not_if "phploc -v | grep phploc"
 end
 
 # install git
