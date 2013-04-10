@@ -14,6 +14,21 @@ Install the [vbguest](http://blog.csanchez.org/2012/05/03/automatically-download
 
     vagrant gem install vagrant-vbguest
 
+##Setup
+
+Clone this repo:  
+
+    git clone git@github.com:jrobertfox/vagrant-lamp-stack.git  
+
+Navigate to the location where you've cloned the repo:  
+    
+    cd vagrant-lamp-stack  
+
+Once inside the directory, run the following commands to finish loading everything:   
+
+    git submodule init  
+    git submodule update   
+
 ##Get Going
 
 Simple as this:
